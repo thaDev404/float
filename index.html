@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>2 Column Layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        #parent{
+            background-color: #ccffff;
+        }
+
+        #header{
+            background-color: #99ffff;
+        }
+
+        #left-section{
+            background-color: #99ffff;
+            float: left;
+            width: 150px;
+            height: 310px;
+            margin-bottom: 20px;
+        }
+
+        #right-section{
+            background-color: #00b3b3;
+            margin-left: 180px;
+            height: 310px; 
+            overflow: auto;
+            text-align: justify;
+        }
+
+        #footer{
+            background-color: #00cccc;
+            clear: both;
+        }
+        
+        a{
+            display: block;
+            padding: 20px;
+            color: black;       
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="header">
+            <h2>Welcome</h2>
+        </div>
+        <div id="left-section">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About Us</a>
+            <a href="#">Career</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div id="right-section">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed ipsum est. Nulla scelerisque eleifend pharetra. Cras volutpat ac justo tempus interdum. Vivamus sed venenatis enim. Morbi consequat laoreet mi sit amet bibendum. Mauris vitae ligula id urna euismod lacinia eget ac dolor. Vivamus eu elementum mauris. Duis tempus molestie bibendum. Duis sed sodales lorem. Sed imperdiet feugiat tellus, vitae commodo nisi bibendum sed. Nam enim urna, viverra sed est ut, posuere congue arcu. Nunc sagittis pulvinar urna, vitae euismod risus porttitor vitae. </p>
+            <p>Donec tristique nunc eget facilisis efficitur. Suspendisse porttitor sagittis viverra. Nam accumsan tortor eros, eu aliquam tellus congue at. Nullam ultrices ex tortor, sed interdum lorem suscipit eu. Sed imperdiet mauris sit amet consectetur egestas. Integer ac lectus neque. Donec efficitur lectus vitae diam placerat, et lacinia est placerat. Aliquam rutrum lacus in urna elementum aliquet. Nunc luctus tortor et tellus hendrerit, placerat auctor tortor consectetur. </p>
+            <p>Ut efficitur lacus ut erat convallis consequat eu convallis mi. Suspendisse vitae porta nisi, non consequat mauris. Quisque nec tempor urna, id blandit orci. Sed feugiat eros sit amet erat accumsan, quis commodo lectus ultrices. Phasellus vitae felis sit amet nisl molestie pellentesque. Sed eu justo maximus, tincidunt eros sed, maximus augue. Morbi non lorem vel turpis dictum dictum quis fermentum nibh. Vivamus tempor pharetra ligula, vel semper mauris ultricies et. Quisque euismod tellus quis eleifend ultricies. Interdum et malesuada fames ac ante ipsum primis in faucibus</p>
+        </div>
+        <div id="footer">
+            <small>&copy; 2018</small>
+        </div>
+    </div>
+</body>
+</html>
